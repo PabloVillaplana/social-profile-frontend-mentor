@@ -7,10 +7,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
 }
 
-.card{
+/* Card Section | Profile */
+
+#card{
     background-color: #202020;
     text-align: center;
     border-radius: 20px;
@@ -32,7 +33,7 @@ body {
     margin-bottom: 20px;
 }
 
-a{
+#card .card_social_link{
     text-decoration: none;
     padding: 15px;
     margin: 20px;
@@ -43,8 +44,29 @@ a{
     color: white;
 }
 
-a:hover{
+#card .card_social_link:hover{
     background-color: #bce738;
     transition: 0.5s;
     color: black;
 }
+
+/* Footer Section */
+/* #footer{
+    background-color: #202020;
+    text-align: center;
+    border-radius: 20px;
+    padding: 2em 2em;
+    color: white;
+    margin-top: 20px;
+}
+
+#footer .card_social_link{
+    text-decoration: none;
+    padding: 15px;
+    margin: 20px;
+    background-color: #333333;
+    display: block;
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+} */
